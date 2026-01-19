@@ -1,0 +1,15 @@
+
+
+
+
+version: "3.9"
+
+services:
+  zahra:
+    build:
+      context: ..
+      dockerfile: zahra_cnt/Dockerfile
+    volumes:
+      - ../zahra:/app/zahra
+      - ../models:/app/models
+    command: python main.py
