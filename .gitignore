@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# llama.cpp build artifacts (ignore everything in llama.cpp)
+llama.cpp/
+llama.cpp/build/
+llama.cpp/bin/
+llama.cpp/*.o
+llama.cpp/*.exe
+llama.cpp/*.dll
+llama.cpp/*.so
+llama.cpp/*.dylib
+
+# Model weights (Mistral, LLaMA, etc.)
+*.bin
+*.gguf
+*.pth
+*.pt
+*.ckpt
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Misc temp files
+*.tmp
+*.swp
